@@ -4,7 +4,7 @@ Board to allow you to measure power supply rejection ratio.
 
 Allows you to inject an AC ripple on top of your DC power supply to measure downstream. 0dB from 100Hz+. 
 
-**[Product page]([https://amodo-design.github.io/STAGING_AMODO_WEBSITE_SW/products/psrr-injector-board/](https://amododesign.com/products/psrr-injector-board/)) · Designed by [Amodo](https://amododesign.com)**
+**[Product page](https://amodo-design.github.io/STAGING_AMODO_WEBSITE_SW/products/psrr-injector-board/)(https://amododesign.com/products/psrr-injector-board/)) · Designed by [Amodo](https://amododesign.com)**
 
 ## How it works
 
