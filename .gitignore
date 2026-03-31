@@ -1,0 +1,137 @@
+# KiCad .gitignore
+# For KiCad 6.0+ projects
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.bak
+*.bck
+*.orig
+
+# Netlist files (auto-generated)
+*.net
+
+# Autorouter files (legacy)
+*.ses
+
+# Backup files
+*-backup
+*-bak
+*-cache.*
+*-rescue.*
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_pro
+
+# Simulation and analysis files
+*.cir
+*.log
+*.raw
+*.sim
+*.spice
+
+# Gerber and drill files (often regenerated)
+# Uncomment these lines if you don't want to track manufacturing files
+# *.gbr
+# *.gbrjob
+# *.gml
+# *.gm1
+# *.gko
+# *.gks
+# *.gts
+# *.gbs
+# *.drl
+# *.map
+# *.rpt
+# *.pos
+# *.csv
+# *.pdf
+
+# 3D models cache
+3dmodels/
+*.3dshapes
+
+# Symbol and footprint library cache
+sym-lib-table
+fp-lib-table
+*.dcm
+*.pretty/
+
+# Project-specific libraries (comment out if you want to track them)
+# *.kicad_sym
+# *.kicad_mod
+
+# Auto-generated files
+*.kicad_prl
+*.xml
+
+# Lock files
+*.lck
+
+# Plotter and fabrication outputs
+# Uncomment to ignore fabrication outputs
+# fabrication/
+# gerbers/
+# plots/
+# drill/
+# pick_and_place/
+
+# Documentation outputs (uncomment if auto-generated)
+# documentation/
+# *.png
+# *.svg
+# *.pdf
+
+# OS-specific files
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# KiCad specific temporary directories
+*-cache/
+*-backups/
+*_autosave-*
+
+# Assembly and BOM files (uncomment if auto-generated)
+# bom/
+# assembly/
+# *.html
+
+# Mechanical files (uncomment if auto-generated)
+# mechanical/
+# *.step
+# *.stp
+
+# Version control for shared projects
+# If working in a team, you might want to track certain files:
+# Keep these lines commented for solo projects, uncomment for team projects
+
+# Track essential project files (uncomment for team projects)
+# !*.kicad_pro
+# !*.kicad_pcb
+# !*.kicad_sch
+# !*.kicad_sym
+# !*.kicad_mod
+
+# Track custom libraries (uncomment if you have project-specific libraries)
+# !custom_libraries/
+# !project_symbols.kicad_sym
+# !project_footprints.pretty/
+
+# Manufacturing files - decide based on your workflow
+# For solo projects: usually ignore and regenerate
+# For team projects: might want to track final versions
